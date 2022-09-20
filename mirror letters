@@ -1,0 +1,7 @@
+string=input('enter a string: ')
+string=string[::-1]
+print(string)
+
+output:
+enter a string: vamsi
+ismav
