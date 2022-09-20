@@ -1,0 +1,13 @@
+def func(a):
+    b=[]
+    for i in a:
+        if  i not in b:
+            b.append(i)
+    b.sort()
+    return b
+a=eval(input("Enter list:"))
+print("The list after removing duplicates is:",func(a))
+
+output:
+Enter list:1,1,2
+The list after removing duplicates is: [1, 2]
